@@ -20,6 +20,27 @@
         "reporting",
         "remote_control"
       ]
+    },
+    {
+      "id": "qobuz",
+      "name": "Qobuz (unofficial)",
+      "description": "Browse and search your Qobuz library, and stream it at the best quality your DAC plays natively. Qobuz Connect support: pick your player from the Qobuz app and control it from your phone. Unofficial, uses the Qobuz web API; needs a Qobuz subscription.",
+      "author": "anon7627",
+      "license": "MIT",
+      "repository": "https://github.com/anon7627/ricercar-qconnect",
+      "version": "0.1.0",
+      "protocol": 1,
+      "capabilities": [
+        "auth",
+        "browse",
+        "search",
+        "resolve",
+        "favorites",
+        "remote_control"
+      ],
+      "args": [
+        "plugin"
+      ]
     }
   ]
 }
