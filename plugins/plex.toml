@@ -1,0 +1,19 @@
+id = "plex"
+name = "Plex"
+description = "Browse, search and play the music of your own Plex Media Server. Albums, artists, playlists and favourites, merged into your library; plays show on the server. Original files, bit for bit; FLAC at a rate your DAC takes when it cannot play the file's."
+author = "ricercar-player"
+license = "MIT"
+repository = "https://github.com/ricercar-player/ricercar-plex"
+version = "0.1.0"
+protocol = 1
+capabilities = ["auth", "browse", "search", "resolve", "favorites", "reporting", "library"]
+
+[[assets]]
+arch = "x86_64"
+url = "https://github.com/ricercar-player/ricercar-plex/releases/download/v0.1.0/plex-x86_64"
+sha256 = "e3296ddec9c85d7ca322362cffea06dadab882e156d7f86c0c8f96407b55841c"
+
+[[assets]]
+arch = "aarch64"
+url = "https://github.com/ricercar-player/ricercar-plex/releases/download/v0.1.0/plex-aarch64"
+sha256 = "b143f26d970ccea7afb87120d65ed15bbe8e961e83ebbd057486d626482e603f"
