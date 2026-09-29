@@ -1,19 +1,19 @@
 id = "subsonic"
 name = "Subsonic"
-description = "Browse, search and play the music of your own Subsonic-compatible server: Navidrome, Gonic, Airsonic-Advanced, LMS, Ampache. Albums, artists, playlists and starred items, merged into your library. Original files, bit for bit; FLAC at a rate your DAC takes when the server can transcode (Navidrome 0.64+)."
+description = "Browse, search and play the music of your own Subsonic-compatible server: Navidrome, Gonic, Airsonic-Advanced, LMS, Ampache. Albums, artists, playlists and starred items, merged into your library, and Home shelves of recent, most played and random albums. Original files, bit for bit; FLAC at a rate your DAC takes when the server can transcode (Navidrome 0.64+)."
 author = "ricercar-player"
 license = "MIT"
 repository = "https://github.com/ricercar-player/ricercar-subsonic"
-version = "0.1.0"
+version = "0.2.0"
 protocol = 1
 capabilities = ["auth", "browse", "search", "resolve", "favorites", "reporting", "library"]
 
 [[assets]]
 arch = "x86_64"
-url = "https://github.com/ricercar-player/ricercar-subsonic/releases/download/v0.1.0/subsonic-x86_64"
-sha256 = "8d66c7f54896496e7b983c7c90a52268b1c5562f8fa6298ab0be46abf4197d45"
+url = "https://github.com/ricercar-player/ricercar-subsonic/releases/download/v0.2.0/subsonic-x86_64"
+sha256 = "eabcb5b48488e81c4406d6c6260c20356207f0289ce9489f8b2a169d535f3b0e"
 
 [[assets]]
 arch = "aarch64"
-url = "https://github.com/ricercar-player/ricercar-subsonic/releases/download/v0.1.0/subsonic-aarch64"
-sha256 = "0e067b914ad9317d0fd856a0f52477a307dfe6e9331ec8405ef201911b8a25de"
+url = "https://github.com/ricercar-player/ricercar-subsonic/releases/download/v0.2.0/subsonic-aarch64"
+sha256 = "6a7a50dc7dec2473f2582a52c6bb1a1c4a55ec9841aa39b5c66a21404a736ea3"

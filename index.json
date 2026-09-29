@@ -24,70 +24,11 @@
     {
       "id": "jellyfin",
       "name": "Jellyfin",
-      "description": "Browse, search and play the music of your own Jellyfin server: albums, artists, playlists, favourites and folders. Original files, bit for bit; FLAC transcode only when your DAC cannot take a file's rate. Sign in with Quick Connect or your password.",
+      "description": "Browse, search and play the music of your own Jellyfin server: albums, artists, playlists, favourites and folders, in ricercar's library next to your local music. Original files, bit for bit; FLAC transcode only when your DAC cannot take a file's rate. Sign in with Quick Connect or your password.",
       "author": "ricercar-player",
       "license": "MIT",
       "repository": "https://github.com/ricercar-player/ricercar-jellyfin",
-      "version": "0.1.0",
-      "protocol": 1,
-      "capabilities": [
-        "auth",
-        "browse",
-        "search",
-        "resolve",
-        "favorites",
-        "reporting"
-      ],
-      "assets": [
-        {
-          "arch": "x86_64",
-          "url": "https://github.com/ricercar-player/ricercar-jellyfin/releases/download/v0.1.0/jellyfin-x86_64",
-          "sha256": "32fa3cacc78899ce708afd091869bb6619442509e4be39b7daa9c408181965f7"
-        },
-        {
-          "arch": "aarch64",
-          "url": "https://github.com/ricercar-player/ricercar-jellyfin/releases/download/v0.1.0/jellyfin-aarch64",
-          "sha256": "97819d44d4078a1c136c18f312bb5cbb3999c69b3000e4434d4a95f9f1a05201"
-        }
-      ]
-    },
-    {
-      "id": "archive",
-      "name": "Live Music Archive",
-      "description": "Hundreds of thousands of concert recordings from the Internet Archive's Live Music Archive, free to share, most of them lossless. Browse popular, recent and on-this-day shows or an artist's recordings, search, and keep favourites in your library. No account. Original FLAC files, bit for bit.",
-      "author": "ricercar-player",
-      "license": "MIT",
-      "repository": "https://github.com/ricercar-player/ricercar-archive",
-      "version": "0.1.0",
-      "protocol": 1,
-      "capabilities": [
-        "browse",
-        "search",
-        "resolve",
-        "favorites",
-        "library"
-      ],
-      "assets": [
-        {
-          "arch": "x86_64",
-          "url": "https://github.com/ricercar-player/ricercar-archive/releases/download/v0.1.0/archive-x86_64",
-          "sha256": "0eefd79f6949e08ebf0e878b2e745f974696c66a5775181bb3a19d7c1ac38480"
-        },
-        {
-          "arch": "aarch64",
-          "url": "https://github.com/ricercar-player/ricercar-archive/releases/download/v0.1.0/archive-aarch64",
-          "sha256": "c1c88ea4e209a57ff70cd663f7724a1b5fb463c183e4691f14712f5f7958495c"
-        }
-      ]
-    },
-    {
-      "id": "plex",
-      "name": "Plex",
-      "description": "Browse, search and play the music of your own Plex Media Server. Albums, artists, playlists and favourites, merged into your library; plays show on the server. Original files, bit for bit; FLAC at a rate your DAC takes when it cannot play the file's.",
-      "author": "ricercar-player",
-      "license": "MIT",
-      "repository": "https://github.com/ricercar-player/ricercar-plex",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "protocol": 1,
       "capabilities": [
         "auth",
@@ -101,13 +42,73 @@
       "assets": [
         {
           "arch": "x86_64",
-          "url": "https://github.com/ricercar-player/ricercar-plex/releases/download/v0.1.0/plex-x86_64",
-          "sha256": "e3296ddec9c85d7ca322362cffea06dadab882e156d7f86c0c8f96407b55841c"
+          "url": "https://github.com/ricercar-player/ricercar-jellyfin/releases/download/v0.2.0/jellyfin-x86_64",
+          "sha256": "47bc6934cc9c4c8e2cf83c07e39dff8af87f553a393e81e3db3e9d549882022f"
         },
         {
           "arch": "aarch64",
-          "url": "https://github.com/ricercar-player/ricercar-plex/releases/download/v0.1.0/plex-aarch64",
-          "sha256": "b143f26d970ccea7afb87120d65ed15bbe8e961e83ebbd057486d626482e603f"
+          "url": "https://github.com/ricercar-player/ricercar-jellyfin/releases/download/v0.2.0/jellyfin-aarch64",
+          "sha256": "98c304796ea938cf3b4affc0ee7d7dbb74cb8eb82743b9d95f0577025727ee4d"
+        }
+      ]
+    },
+    {
+      "id": "archive",
+      "name": "Live Music Archive",
+      "description": "Hundreds of thousands of concert recordings from the Internet Archive's Live Music Archive, free to share, most of them lossless. Browse popular, recent and on-this-day shows or an artist's recordings, search, and keep favourites in your library. No account. Original FLAC files, bit for bit.",
+      "author": "ricercar-player",
+      "license": "MIT",
+      "repository": "https://github.com/ricercar-player/ricercar-archive",
+      "version": "0.2.0",
+      "protocol": 1,
+      "capabilities": [
+        "browse",
+        "search",
+        "resolve",
+        "favorites",
+        "library"
+      ],
+      "assets": [
+        {
+          "arch": "x86_64",
+          "url": "https://github.com/ricercar-player/ricercar-archive/releases/download/v0.2.0/archive-x86_64",
+          "sha256": "a83bf0a07a6592a764915bad337c59e6b58401a703547f612069c0eeb763797e"
+        },
+        {
+          "arch": "aarch64",
+          "url": "https://github.com/ricercar-player/ricercar-archive/releases/download/v0.2.0/archive-aarch64",
+          "sha256": "8fbcb00ae04d0ad3a92100cf35b5a0493388f703245e83dbdea958555dfaa14f"
+        }
+      ]
+    },
+    {
+      "id": "plex",
+      "name": "Plex",
+      "description": "Browse, search and play the music of your own Plex Media Server. Albums, artists and playlists merged into your library, recent albums on Home, favourites shared with Plex; plays show on the server. Original files, bit for bit; FLAC at a rate your DAC takes when it cannot play the file's.",
+      "author": "ricercar-player",
+      "license": "MIT",
+      "repository": "https://github.com/ricercar-player/ricercar-plex",
+      "version": "0.2.0",
+      "protocol": 1,
+      "capabilities": [
+        "auth",
+        "browse",
+        "search",
+        "resolve",
+        "favorites",
+        "reporting",
+        "library"
+      ],
+      "assets": [
+        {
+          "arch": "x86_64",
+          "url": "https://github.com/ricercar-player/ricercar-plex/releases/download/v0.2.0/plex-x86_64",
+          "sha256": "0054f48585da595433f4bea9a9521a7fe7629b07d83ad1e90a5c9d85ade0c308"
+        },
+        {
+          "arch": "aarch64",
+          "url": "https://github.com/ricercar-player/ricercar-plex/releases/download/v0.2.0/plex-aarch64",
+          "sha256": "bbfd51b5a711d16988913be03ee344d5025d8101c4c7840815c19f18f599c3ee"
         }
       ]
     },
@@ -143,11 +144,11 @@
     {
       "id": "subsonic",
       "name": "Subsonic",
-      "description": "Browse, search and play the music of your own Subsonic-compatible server: Navidrome, Gonic, Airsonic-Advanced, LMS, Ampache. Albums, artists, playlists and starred items, merged into your library. Original files, bit for bit; FLAC at a rate your DAC takes when the server can transcode (Navidrome 0.64+).",
+      "description": "Browse, search and play the music of your own Subsonic-compatible server: Navidrome, Gonic, Airsonic-Advanced, LMS, Ampache. Albums, artists, playlists and starred items, merged into your library, and Home shelves of recent, most played and random albums. Original files, bit for bit; FLAC at a rate your DAC takes when the server can transcode (Navidrome 0.64+).",
       "author": "ricercar-player",
       "license": "MIT",
       "repository": "https://github.com/ricercar-player/ricercar-subsonic",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "protocol": 1,
       "capabilities": [
         "auth",
@@ -161,13 +162,13 @@
       "assets": [
         {
           "arch": "x86_64",
-          "url": "https://github.com/ricercar-player/ricercar-subsonic/releases/download/v0.1.0/subsonic-x86_64",
-          "sha256": "8d66c7f54896496e7b983c7c90a52268b1c5562f8fa6298ab0be46abf4197d45"
+          "url": "https://github.com/ricercar-player/ricercar-subsonic/releases/download/v0.2.0/subsonic-x86_64",
+          "sha256": "eabcb5b48488e81c4406d6c6260c20356207f0289ce9489f8b2a169d535f3b0e"
         },
         {
           "arch": "aarch64",
-          "url": "https://github.com/ricercar-player/ricercar-subsonic/releases/download/v0.1.0/subsonic-aarch64",
-          "sha256": "0e067b914ad9317d0fd856a0f52477a307dfe6e9331ec8405ef201911b8a25de"
+          "url": "https://github.com/ricercar-player/ricercar-subsonic/releases/download/v0.2.0/subsonic-aarch64",
+          "sha256": "6a7a50dc7dec2473f2582a52c6bb1a1c4a55ec9841aa39b5c66a21404a736ea3"
         }
       ]
     }
