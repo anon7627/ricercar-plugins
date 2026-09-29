@@ -36,7 +36,7 @@ points at its author's repository and at the binaries the author publishes.
 | Plugin | Description | Author | Licence | Version | Builds |
 |---|---|---|---|---|---|
 | [Demo Music (reference)](https://github.com/ricercar-player/ricercar) | Reference implementation of the plugin protocol, for plugin authors. Serves generated test tones from your own computer; sign-in code DEMO. | ricercar | MIT | 1.0.0 | from source |
-| [Qobuz (unofficial)](https://github.com/anon7627/ricercar-qconnect) | Browse and search your Qobuz library, and stream it at the best quality your DAC plays natively. Qobuz Connect support: pick your player from the Qobuz app and control it from your phone. Unofficial, uses the Qobuz web API; needs a Qobuz subscription. | anon7627 | MIT | 0.1.0 | from source |
+| [Qobuz (unofficial)](https://github.com/anon7627/ricercar-qconnect) | Browse and search your Qobuz library, and stream it at the best quality your DAC plays natively. Qobuz Connect support: pick your player from the Qobuz app and control it from your phone. Unofficial, uses the Qobuz web API; needs a Qobuz subscription. | anon7627 | MIT | 0.1.0 | x86_64 |
 <!-- catalogue:end -->
 
 ## Adding your plugin

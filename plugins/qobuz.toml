@@ -1,5 +1,5 @@
-# Unofficial Qobuz client. No prebuilt binary yet: build it from the
-# repository (`cargo install --git https://github.com/anon7627/ricercar-qconnect`).
+# Unofficial Qobuz client. Static Linux x86_64 build; elsewhere, build it
+# from the repository (`cargo install --git https://github.com/anon7627/ricercar-qconnect`).
 id = "qobuz"
 name = "Qobuz (unofficial)"
 description = "Browse and search your Qobuz library, and stream it at the best quality your DAC plays natively. Qobuz Connect support: pick your player from the Qobuz app and control it from your phone. Unofficial, uses the Qobuz web API; needs a Qobuz subscription."
@@ -10,3 +10,8 @@ version = "0.1.0"
 protocol = 1
 capabilities = ["auth", "browse", "search", "resolve", "favorites", "remote_control"]
 args = ["plugin"]
+
+[[assets]]
+arch = "x86_64"
+url = "https://github.com/anon7627/ricercar-qconnect/releases/download/v0.1.0/qconnect-x86_64"
+sha256 = "4ed5b788b6e5df5f5b73e50aa01630a672a791ef6d7ed62fdbbabd1fe2be3e23"
