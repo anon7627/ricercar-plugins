@@ -38,6 +38,7 @@ points at its author's repository and at the binaries the author publishes.
 | [Demo Music (reference)](https://github.com/ricercar-player/ricercar) | Reference implementation of the plugin protocol, for plugin authors. Serves generated test tones from your own computer; sign-in code DEMO. | ricercar | MIT | 1.0.0 | from source |
 | [Jellyfin](https://github.com/ricercar-player/ricercar-jellyfin) | Browse, search and play the music of your own Jellyfin server: albums, artists, playlists, favourites and folders. Original files, bit for bit; FLAC transcode only when your DAC cannot take a file's rate. Sign in with Quick Connect or your password. | ricercar-player | MIT | 0.1.0 | x86_64, aarch64 |
 | [Qobuz (unofficial)](https://github.com/anon7627/ricercar-qconnect) | Browse and search your Qobuz library, and stream it at the best quality your DAC plays natively. Qobuz Connect support: pick your player from the Qobuz app and control it from your phone. Unofficial, uses the Qobuz web API; needs a Qobuz subscription. | anon7627 | MIT | 0.1.1 | x86_64 |
+| [Subsonic](https://github.com/ricercar-player/ricercar-subsonic) | Browse, search and play the music of your own Subsonic-compatible server: Navidrome, Gonic, Airsonic-Advanced, LMS, Ampache. Albums, artists, playlists and starred items, merged into your library. Original files, bit for bit; FLAC at a rate your DAC takes when the server can transcode (Navidrome 0.64+). | ricercar-player | MIT | 0.1.0 | x86_64, aarch64 |
 <!-- catalogue:end -->
 
 ## Adding your plugin
