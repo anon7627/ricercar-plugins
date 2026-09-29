@@ -85,7 +85,7 @@ or when its links are dead or it is shown to be malicious.
 ## Format notes
 
 - `capabilities`: `auth`, `browse`, `search`, `resolve`, `favorites`,
-  `reporting`, `remote_control` (see the protocol).
+  `reporting`, `remote_control`, `library` (see the protocol).
 - All URLs are `https`. Digests are lowercase hex SHA-256 of the exact file
   behind `url`.
 - `index.json` is generated: ricercar reads it from
