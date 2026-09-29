@@ -40,6 +40,13 @@
       ],
       "args": [
         "plugin"
+      ],
+      "assets": [
+        {
+          "arch": "x86_64",
+          "url": "https://github.com/anon7627/ricercar-qconnect/releases/download/v0.1.0/qconnect-x86_64",
+          "sha256": "4ed5b788b6e5df5f5b73e50aa01630a672a791ef6d7ed62fdbbabd1fe2be3e23"
+        }
       ]
     }
   ]
