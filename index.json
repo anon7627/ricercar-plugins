@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "plugins": [
+    {
+      "id": "demo",
+      "name": "Demo Music (reference)",
+      "description": "Reference implementation of the plugin protocol, for plugin authors. Serves generated test tones from your own computer; sign-in code DEMO.",
+      "author": "ricercar",
+      "license": "MIT",
+      "repository": "https://github.com/ricercar-player/ricercar",
+      "homepage": "https://github.com/ricercar-player/ricercar/blob/main/docs/plugins.md",
+      "version": "1.0.0",
+      "protocol": 1,
+      "capabilities": [
+        "auth",
+        "browse",
+        "search",
+        "resolve",
+        "favorites",
+        "reporting",
+        "remote_control"
+      ]
+    }
+  ]
+}

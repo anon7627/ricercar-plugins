@@ -1,0 +1,13 @@
+# Reference plugin for plugin authors: a few generated tracks served from
+# 127.0.0.1, implementing every method of protocol 1 (error paths included).
+# No prebuilt binary: build it from the ricercar repository.
+id = "demo"
+name = "Demo Music (reference)"
+description = "Reference implementation of the plugin protocol, for plugin authors. Serves generated test tones from your own computer; sign-in code DEMO."
+author = "ricercar"
+license = "MIT"
+repository = "https://github.com/ricercar-player/ricercar"
+homepage = "https://github.com/ricercar-player/ricercar/blob/main/docs/plugins.md"
+version = "1.0.0"
+protocol = 1
+capabilities = ["auth", "browse", "search", "resolve", "favorites", "reporting", "remote_control"]
