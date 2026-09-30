@@ -28,7 +28,7 @@
       "author": "ricercar-player",
       "license": "MIT",
       "repository": "https://github.com/ricercar-player/ricercar-jellyfin",
-      "version": "0.2.1",
+      "version": "0.2.2",
       "protocol": 1,
       "capabilities": [
         "auth",
@@ -42,13 +42,13 @@
       "assets": [
         {
           "arch": "x86_64",
-          "url": "https://github.com/ricercar-player/ricercar-jellyfin/releases/download/v0.2.1/jellyfin-x86_64",
-          "sha256": "a10a011391a1eec343925a9cdf6379d966c3955c26be700a7180f30c38aa90a6"
+          "url": "https://github.com/ricercar-player/ricercar-jellyfin/releases/download/v0.2.2/jellyfin-x86_64",
+          "sha256": "e175f40e2e1f5737aee50a0d236219238bd6d6c26f72c3b07cb0769d8392f68f"
         },
         {
           "arch": "aarch64",
-          "url": "https://github.com/ricercar-player/ricercar-jellyfin/releases/download/v0.2.1/jellyfin-aarch64",
-          "sha256": "87b79216cda8373f35558ef8b3588cb703fb2d8cbef14b8c49afa527dad380f0"
+          "url": "https://github.com/ricercar-player/ricercar-jellyfin/releases/download/v0.2.2/jellyfin-aarch64",
+          "sha256": "8298ac1a5864b3299aefbab40b8155367c1f794cb7d5ef99ea7a9188e1393111"
         }
       ]
     },
@@ -88,7 +88,7 @@
       "author": "ricercar-player",
       "license": "MIT",
       "repository": "https://github.com/ricercar-player/ricercar-plex",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "protocol": 1,
       "capabilities": [
         "auth",
@@ -102,13 +102,13 @@
       "assets": [
         {
           "arch": "x86_64",
-          "url": "https://github.com/ricercar-player/ricercar-plex/releases/download/v0.2.0/plex-x86_64",
-          "sha256": "0054f48585da595433f4bea9a9521a7fe7629b07d83ad1e90a5c9d85ade0c308"
+          "url": "https://github.com/ricercar-player/ricercar-plex/releases/download/v0.2.1/plex-x86_64",
+          "sha256": "d88bbd9f0f7778a74aa94f6b19eceb019685889838fcb9edd8921faaec6e7d28"
         },
         {
           "arch": "aarch64",
-          "url": "https://github.com/ricercar-player/ricercar-plex/releases/download/v0.2.0/plex-aarch64",
-          "sha256": "bbfd51b5a711d16988913be03ee344d5025d8101c4c7840815c19f18f599c3ee"
+          "url": "https://github.com/ricercar-player/ricercar-plex/releases/download/v0.2.1/plex-aarch64",
+          "sha256": "2e80e58711ee2af67a7ff0b102a0662ef6d0c357e9632e955f35a88b7eec508a"
         }
       ]
     },
@@ -148,7 +148,7 @@
       "author": "ricercar-player",
       "license": "MIT",
       "repository": "https://github.com/ricercar-player/ricercar-subsonic",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "protocol": 1,
       "capabilities": [
         "auth",
@@ -162,13 +162,13 @@
       "assets": [
         {
           "arch": "x86_64",
-          "url": "https://github.com/ricercar-player/ricercar-subsonic/releases/download/v0.2.0/subsonic-x86_64",
-          "sha256": "eabcb5b48488e81c4406d6c6260c20356207f0289ce9489f8b2a169d535f3b0e"
+          "url": "https://github.com/ricercar-player/ricercar-subsonic/releases/download/v0.2.1/subsonic-x86_64",
+          "sha256": "f99b33048e4eea1bf8ec71f4bd236318f51d273c8fd7b24a4442863ac18d1ca2"
         },
         {
           "arch": "aarch64",
-          "url": "https://github.com/ricercar-player/ricercar-subsonic/releases/download/v0.2.0/subsonic-aarch64",
-          "sha256": "6a7a50dc7dec2473f2582a52c6bb1a1c4a55ec9841aa39b5c66a21404a736ea3"
+          "url": "https://github.com/ricercar-player/ricercar-subsonic/releases/download/v0.2.1/subsonic-aarch64",
+          "sha256": "e665b5141dc72f4b76f50e4abcfa2f8345a16715eadb769e00945520c7a74e51"
         }
       ]
     }
