@@ -123,11 +123,11 @@
     {
       "id": "qobuz",
       "name": "Qobuz (unofficial)",
-      "description": "Browse and search your Qobuz library, and stream it at the best quality your DAC plays natively. Qobuz Connect support: pick your player from the Qobuz app and control it from your phone. Unofficial, uses the Qobuz web API; needs a Qobuz subscription.",
+      "description": "Browse and search your Qobuz library, and stream it at the best quality your DAC plays natively. Lyrics, radio and continuous playback, artist and album details, your own playlists editable. Qobuz Connect support: pick your player from the Qobuz app and control it from your phone. Unofficial, uses the Qobuz web API; needs a Qobuz subscription.",
       "author": "anon7627",
       "license": "MIT",
       "repository": "https://github.com/anon7627/ricercar-qconnect",
-      "version": "0.1.5",
+      "version": "0.2.0",
       "protocol": 1,
       "capabilities": [
         "auth",
@@ -135,8 +135,13 @@
         "search",
         "resolve",
         "favorites",
+        "reporting",
         "remote_control",
-        "library"
+        "library",
+        "lyrics",
+        "playlist_edit",
+        "details",
+        "radio"
       ],
       "args": [
         "plugin"
@@ -144,8 +149,13 @@
       "assets": [
         {
           "arch": "x86_64",
-          "url": "https://github.com/anon7627/ricercar-qconnect/releases/download/v0.1.5/qconnect-x86_64",
-          "sha256": "8c93bd4eb37f11e59325f8bc0256fb69080d4340cc15362e2a37d6154d71051a"
+          "url": "https://github.com/anon7627/ricercar-qconnect/releases/download/v0.2.0/qconnect-x86_64",
+          "sha256": "fb3bba1c7ff79acfe4295234a6a2329a9b9b0f75e5d092b655cbb65b1bd87958"
+        },
+        {
+          "arch": "aarch64",
+          "url": "https://github.com/anon7627/ricercar-qconnect/releases/download/v0.2.0/qconnect-aarch64",
+          "sha256": "2b6beb9579df450f907a0997765c729f013f03b94e7c76f96c16c4e2ef63784d"
         }
       ]
     },
