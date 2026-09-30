@@ -6,17 +6,17 @@ description = "Browse and search your Qobuz library, and stream it at the best q
 author = "anon7627"
 license = "MIT"
 repository = "https://github.com/anon7627/ricercar-qconnect"
-version = "0.2.0"
+version = "0.2.1"
 protocol = 1
 capabilities = ["auth", "browse", "search", "resolve", "favorites", "reporting", "remote_control", "library", "lyrics", "playlist_edit", "details", "radio"]
 args = ["plugin"]
 
 [[assets]]
 arch = "x86_64"
-url = "https://github.com/anon7627/ricercar-qconnect/releases/download/v0.2.0/qconnect-x86_64"
-sha256 = "fb3bba1c7ff79acfe4295234a6a2329a9b9b0f75e5d092b655cbb65b1bd87958"
+url = "https://github.com/anon7627/ricercar-qconnect/releases/download/v0.2.1/qconnect-x86_64"
+sha256 = "f15e2ded2fc0ba07294e8b5e27becb76a83b4b7502bc1e63b079442adb6a18eb"
 
 [[assets]]
 arch = "aarch64"
-url = "https://github.com/anon7627/ricercar-qconnect/releases/download/v0.2.0/qconnect-aarch64"
-sha256 = "2b6beb9579df450f907a0997765c729f013f03b94e7c76f96c16c4e2ef63784d"
+url = "https://github.com/anon7627/ricercar-qconnect/releases/download/v0.2.1/qconnect-aarch64"
+sha256 = "47d3120de2eb1190a95a19e4825635736727bfd19e274108868dc8eb6e449caf"
