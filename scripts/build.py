@@ -20,7 +20,10 @@ ROOT = Path(__file__).resolve().parent.parent
 ID = re.compile(r"^[a-z0-9-]{1,64}$")
 SHA = re.compile(r"^[0-9a-f]{64}$")
 ARCHES = {"x86_64", "aarch64"}
-CAPS = {"auth", "browse", "search", "resolve", "favorites", "reporting", "remote_control", "library"}
+CAPS = {
+    "auth", "browse", "search", "resolve", "favorites", "reporting", "remote_control", "library",
+    "lyrics", "details", "radio", "playlist_edit",
+}
 REQUIRED = ("id", "name", "description", "author", "license", "repository", "version", "protocol")
 KNOWN = set(REQUIRED) | {"homepage", "capabilities", "args", "assets"}
 BEGIN, END = "<!-- catalogue:begin -->", "<!-- catalogue:end -->"
