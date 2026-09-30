@@ -28,7 +28,7 @@
       "author": "ricercar-player",
       "license": "MIT",
       "repository": "https://github.com/ricercar-player/ricercar-jellyfin",
-      "version": "0.2.2",
+      "version": "0.3.0",
       "protocol": 1,
       "capabilities": [
         "auth",
@@ -37,18 +37,22 @@
         "resolve",
         "favorites",
         "reporting",
-        "library"
+        "library",
+        "lyrics",
+        "details",
+        "radio",
+        "playlist_edit"
       ],
       "assets": [
         {
           "arch": "x86_64",
-          "url": "https://github.com/ricercar-player/ricercar-jellyfin/releases/download/v0.2.2/jellyfin-x86_64",
-          "sha256": "e175f40e2e1f5737aee50a0d236219238bd6d6c26f72c3b07cb0769d8392f68f"
+          "url": "https://github.com/ricercar-player/ricercar-jellyfin/releases/download/v0.3.0/jellyfin-x86_64",
+          "sha256": "325e6e2166e025f142ade05bcbe2d86baf3231de4c4f724649e0da746af67852"
         },
         {
           "arch": "aarch64",
-          "url": "https://github.com/ricercar-player/ricercar-jellyfin/releases/download/v0.2.2/jellyfin-aarch64",
-          "sha256": "8298ac1a5864b3299aefbab40b8155367c1f794cb7d5ef99ea7a9188e1393111"
+          "url": "https://github.com/ricercar-player/ricercar-jellyfin/releases/download/v0.3.0/jellyfin-aarch64",
+          "sha256": "b5370a9c0cf373d291e8c2ed1576a4c45a7e1a9a74e25f9eabd867013927c420"
         }
       ]
     },
@@ -88,7 +92,7 @@
       "author": "ricercar-player",
       "license": "MIT",
       "repository": "https://github.com/ricercar-player/ricercar-plex",
-      "version": "0.2.1",
+      "version": "0.3.0",
       "protocol": 1,
       "capabilities": [
         "auth",
@@ -97,18 +101,22 @@
         "resolve",
         "favorites",
         "reporting",
-        "library"
+        "library",
+        "lyrics",
+        "details",
+        "radio",
+        "playlist_edit"
       ],
       "assets": [
         {
           "arch": "x86_64",
-          "url": "https://github.com/ricercar-player/ricercar-plex/releases/download/v0.2.1/plex-x86_64",
-          "sha256": "d88bbd9f0f7778a74aa94f6b19eceb019685889838fcb9edd8921faaec6e7d28"
+          "url": "https://github.com/ricercar-player/ricercar-plex/releases/download/v0.3.0/plex-x86_64",
+          "sha256": "930bb2d9bc9d9020db288b162fd9fbd8c07ecc7d65e4b4e2b4da3e1f23cce386"
         },
         {
           "arch": "aarch64",
-          "url": "https://github.com/ricercar-player/ricercar-plex/releases/download/v0.2.1/plex-aarch64",
-          "sha256": "2e80e58711ee2af67a7ff0b102a0662ef6d0c357e9632e955f35a88b7eec508a"
+          "url": "https://github.com/ricercar-player/ricercar-plex/releases/download/v0.3.0/plex-aarch64",
+          "sha256": "68714b780ec384249fd2aa77e3c8309606900cdf723fef610a6a09c9dbffe5f7"
         }
       ]
     },
@@ -148,7 +156,7 @@
       "author": "ricercar-player",
       "license": "MIT",
       "repository": "https://github.com/ricercar-player/ricercar-subsonic",
-      "version": "0.2.1",
+      "version": "0.3.0",
       "protocol": 1,
       "capabilities": [
         "auth",
@@ -157,18 +165,22 @@
         "resolve",
         "favorites",
         "reporting",
-        "library"
+        "library",
+        "lyrics",
+        "details",
+        "radio",
+        "playlist_edit"
       ],
       "assets": [
         {
           "arch": "x86_64",
-          "url": "https://github.com/ricercar-player/ricercar-subsonic/releases/download/v0.2.1/subsonic-x86_64",
-          "sha256": "f99b33048e4eea1bf8ec71f4bd236318f51d273c8fd7b24a4442863ac18d1ca2"
+          "url": "https://github.com/ricercar-player/ricercar-subsonic/releases/download/v0.3.0/subsonic-x86_64",
+          "sha256": "8a290ac7781579f7e21f30e915bff4e734ba2bd4266c8a42738de9c176148f83"
         },
         {
           "arch": "aarch64",
-          "url": "https://github.com/ricercar-player/ricercar-subsonic/releases/download/v0.2.1/subsonic-aarch64",
-          "sha256": "e665b5141dc72f4b76f50e4abcfa2f8345a16715eadb769e00945520c7a74e51"
+          "url": "https://github.com/ricercar-player/ricercar-subsonic/releases/download/v0.3.0/subsonic-aarch64",
+          "sha256": "30c5f8dbd66a65ef2afa142e4ddb95829c77d80672cb2ced8cba12734b2f156e"
         }
       ]
     }
