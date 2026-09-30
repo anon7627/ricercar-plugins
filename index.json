@@ -119,7 +119,7 @@
       "author": "anon7627",
       "license": "MIT",
       "repository": "https://github.com/anon7627/ricercar-qconnect",
-      "version": "0.1.2",
+      "version": "0.1.3",
       "protocol": 1,
       "capabilities": [
         "auth",
@@ -136,8 +136,8 @@
       "assets": [
         {
           "arch": "x86_64",
-          "url": "https://github.com/anon7627/ricercar-qconnect/releases/download/v0.1.2/qconnect-x86_64",
-          "sha256": "10ea5f0476742a48f23fc549a0496974bd0cf995ff75be985b013fc36dc29562"
+          "url": "https://github.com/anon7627/ricercar-qconnect/releases/download/v0.1.3/qconnect-x86_64",
+          "sha256": "046b830392aa82330636dd9db2f0ca17442518397a919dc0e869c700e212a8f6"
         }
       ]
     },
