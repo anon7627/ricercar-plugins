@@ -193,6 +193,35 @@
           "sha256": "30c5f8dbd66a65ef2afa142e4ddb95829c77d80672cb2ced8cba12734b2f156e"
         }
       ]
+    },
+    {
+      "id": "torznab",
+      "name": "Torznab (unofficial)",
+      "description": "Search a Torznab indexer (Prowlarr, Jackett, bitmagnet…) and play music straight from BitTorrent while it downloads: releases as albums, original files bit for bit, seeking ahead, gapless preload. Covers from the torrent or Cover Art Archive, favourites in your library. You choose the indexer; use it for what you have the right to download.",
+      "author": "anon7627",
+      "license": "MIT",
+      "repository": "https://github.com/anon7627/torznab-stream",
+      "version": "1.0.2",
+      "protocol": 1,
+      "capabilities": [
+        "browse",
+        "search",
+        "resolve",
+        "favorites",
+        "library"
+      ],
+      "assets": [
+        {
+          "arch": "x86_64",
+          "url": "https://github.com/anon7627/torznab-stream/releases/download/v1.0.2/torznab-stream-x86_64",
+          "sha256": "056cd9e74bc3ed35ace8c4876750257b0291cbdc02fc79b52a6c4232638287ea"
+        },
+        {
+          "arch": "aarch64",
+          "url": "https://github.com/anon7627/torznab-stream/releases/download/v1.0.2/torznab-stream-aarch64",
+          "sha256": "3f15316eb94f4df75e595f4d25e3d9d3fecdb9c7905dea3d389e298b601497fb"
+        }
+      ]
     }
   ]
 }
