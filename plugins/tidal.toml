@@ -1,0 +1,22 @@
+# Static Linux builds (x86_64, aarch64); elsewhere, build it from the repository
+# (`cargo install --git https://github.com/anon7627/tidalsrc`).
+id = "tidal"
+name = "TIDAL (unofficial)"
+description = "Browse and search TIDAL and your library, and stream it lossless or hi-res at the best quality your DAC plays natively, original FLAC frames unchanged. Mixes, lyrics, radio, artist and album details, your own playlists editable. Sign in with a code (CD quality) or through the TIDAL page (hi-res). Unofficial, uses the TIDAL API; needs a TIDAL subscription."
+author = "anon7627"
+license = "MIT"
+repository = "https://github.com/anon7627/tidalsrc"
+version = "0.1.0"
+protocol = 1
+capabilities = ["auth", "browse", "search", "resolve", "favorites", "library", "lyrics", "playlist_edit", "details", "radio"]
+args = ["plugin"]
+
+[[assets]]
+arch = "x86_64"
+url = "https://github.com/anon7627/tidalsrc/releases/download/v0.1.0/tidalsrc-x86_64"
+sha256 = "fa82aa0e7bb6442d034811de51cc1dc5375a16254005c768a705ca62f9f5f8ea"
+
+[[assets]]
+arch = "aarch64"
+url = "https://github.com/anon7627/tidalsrc/releases/download/v0.1.0/tidalsrc-aarch64"
+sha256 = "8c5d6cebc10d1beb1f5fca34543a01771203bb2c5aa7d9a8f756a992bab76686"

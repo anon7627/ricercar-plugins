@@ -1,0 +1,22 @@
+# Static Linux builds (x86_64, aarch64); elsewhere, build it from the repository
+# (`cargo install --git https://github.com/anon7627/soundcloudrc`).
+id = "soundcloud"
+name = "SoundCloud (unofficial)"
+description = "Search and browse SoundCloud without an account: trending and discovery shelves, artists, albums, playlists, stations and details. Plays public tracks in AAC 160 kbit/s or MP3 128 kbit/s, original codec unchanged, with seeking. Unofficial, uses SoundCloud's web API."
+author = "anon7627"
+license = "MIT"
+repository = "https://github.com/anon7627/soundcloudrc"
+version = "0.1.0"
+protocol = 1
+capabilities = ["browse", "search", "resolve", "details", "radio"]
+args = ["plugin"]
+
+[[assets]]
+arch = "x86_64"
+url = "https://github.com/anon7627/soundcloudrc/releases/download/v0.1.0/soundcloudrc-x86_64"
+sha256 = "15733b42260700b0cdbd251eab104105d134a8952a50e7474eb704a692f72bbc"
+
+[[assets]]
+arch = "aarch64"
+url = "https://github.com/anon7627/soundcloudrc/releases/download/v0.1.0/soundcloudrc-aarch64"
+sha256 = "08fff6e4c891af74b28bee39426b5fdc1dbbcd1147efdb66d105e0480525bc9e"

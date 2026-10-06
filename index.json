@@ -2,6 +2,44 @@
   "version": 1,
   "plugins": [
     {
+      "id": "deezer",
+      "name": "Deezer (unofficial)",
+      "description": "Browse and search Deezer and your library, Flow and mixes included, and stream it in FLAC (HiFi plan) or MP3, original codec unchanged, with seeking. Lyrics, radio, artist and album details, your own playlists editable. Sign in with your browser's arl cookie. Unofficial, uses Deezer's private API; needs a Deezer subscription.",
+      "author": "anon7627",
+      "license": "MIT",
+      "repository": "https://github.com/anon7627/deezsrc",
+      "version": "0.1.0",
+      "protocol": 1,
+      "capabilities": [
+        "auth",
+        "browse",
+        "search",
+        "resolve",
+        "favorites",
+        "reporting",
+        "library",
+        "lyrics",
+        "playlist_edit",
+        "details",
+        "radio"
+      ],
+      "args": [
+        "plugin"
+      ],
+      "assets": [
+        {
+          "arch": "x86_64",
+          "url": "https://github.com/anon7627/deezsrc/releases/download/v0.1.0/deezsrc-x86_64",
+          "sha256": "275fda95b3a2f90a3c6296678a05196523a56481e932658ff7052eeeeff6b5a1"
+        },
+        {
+          "arch": "aarch64",
+          "url": "https://github.com/anon7627/deezsrc/releases/download/v0.1.0/deezsrc-aarch64",
+          "sha256": "0209347624547aa8c71040627339cfb0f6b5c39e25479780221b047dd07c9769"
+        }
+      ]
+    },
+    {
       "id": "demo",
       "name": "Demo Music (reference)",
       "description": "Reference implementation of the plugin protocol, for plugin authors. Serves generated test tones from your own computer; sign-in code DEMO.",
@@ -160,6 +198,77 @@
       ]
     },
     {
+      "id": "soundcloud",
+      "name": "SoundCloud (unofficial)",
+      "description": "Search and browse SoundCloud without an account: trending and discovery shelves, artists, albums, playlists, stations and details. Plays public tracks in AAC 160 kbit/s or MP3 128 kbit/s, original codec unchanged, with seeking. Unofficial, uses SoundCloud's web API.",
+      "author": "anon7627",
+      "license": "MIT",
+      "repository": "https://github.com/anon7627/soundcloudrc",
+      "version": "0.1.0",
+      "protocol": 1,
+      "capabilities": [
+        "browse",
+        "search",
+        "resolve",
+        "details",
+        "radio"
+      ],
+      "args": [
+        "plugin"
+      ],
+      "assets": [
+        {
+          "arch": "x86_64",
+          "url": "https://github.com/anon7627/soundcloudrc/releases/download/v0.1.0/soundcloudrc-x86_64",
+          "sha256": "15733b42260700b0cdbd251eab104105d134a8952a50e7474eb704a692f72bbc"
+        },
+        {
+          "arch": "aarch64",
+          "url": "https://github.com/anon7627/soundcloudrc/releases/download/v0.1.0/soundcloudrc-aarch64",
+          "sha256": "08fff6e4c891af74b28bee39426b5fdc1dbbcd1147efdb66d105e0480525bc9e"
+        }
+      ]
+    },
+    {
+      "id": "spotify",
+      "name": "Spotify (unofficial)",
+      "description": "Browse and search Spotify and your library, and play it in Ogg Vorbis 320 kbit/s, original codec unchanged. Lyrics, radio, artist and album details, your own playlists editable. Spotify Connect support: pick your player from the Spotify app and control it from your phone. Unofficial, uses librespot and the Spotify Web API; needs Spotify Premium.",
+      "author": "anon7627",
+      "license": "MIT",
+      "repository": "https://github.com/anon7627/spconnect",
+      "version": "0.1.0",
+      "protocol": 1,
+      "capabilities": [
+        "auth",
+        "browse",
+        "search",
+        "resolve",
+        "favorites",
+        "reporting",
+        "remote_control",
+        "library",
+        "lyrics",
+        "playlist_edit",
+        "details",
+        "radio"
+      ],
+      "args": [
+        "plugin"
+      ],
+      "assets": [
+        {
+          "arch": "x86_64",
+          "url": "https://github.com/anon7627/spconnect/releases/download/v0.1.0/spconnect-x86_64",
+          "sha256": "e927b9894f93b489516442322c1956228ba241bb9e3ac78e48f73e063a585c37"
+        },
+        {
+          "arch": "aarch64",
+          "url": "https://github.com/anon7627/spconnect/releases/download/v0.1.0/spconnect-aarch64",
+          "sha256": "496f358391cb807f19f7c212efc374eccfa7690138932fa10f00bbbe6b3276d8"
+        }
+      ]
+    },
+    {
       "id": "subsonic",
       "name": "Subsonic",
       "description": "Browse, search and play the music of your own Subsonic-compatible server: Navidrome, Gonic, Airsonic-Advanced, LMS, Ampache. Albums, artists, playlists and starred items, merged into your library, and Home shelves of recent, most played and random albums. Original files, bit for bit; FLAC at a rate your DAC takes when the server can transcode (Navidrome 0.64+).",
@@ -191,6 +300,43 @@
           "arch": "aarch64",
           "url": "https://github.com/ricercar-player/ricercar-subsonic/releases/download/v0.3.0/subsonic-aarch64",
           "sha256": "30c5f8dbd66a65ef2afa142e4ddb95829c77d80672cb2ced8cba12734b2f156e"
+        }
+      ]
+    },
+    {
+      "id": "tidal",
+      "name": "TIDAL (unofficial)",
+      "description": "Browse and search TIDAL and your library, and stream it lossless or hi-res at the best quality your DAC plays natively, original FLAC frames unchanged. Mixes, lyrics, radio, artist and album details, your own playlists editable. Sign in with a code (CD quality) or through the TIDAL page (hi-res). Unofficial, uses the TIDAL API; needs a TIDAL subscription.",
+      "author": "anon7627",
+      "license": "MIT",
+      "repository": "https://github.com/anon7627/tidalsrc",
+      "version": "0.1.0",
+      "protocol": 1,
+      "capabilities": [
+        "auth",
+        "browse",
+        "search",
+        "resolve",
+        "favorites",
+        "library",
+        "lyrics",
+        "playlist_edit",
+        "details",
+        "radio"
+      ],
+      "args": [
+        "plugin"
+      ],
+      "assets": [
+        {
+          "arch": "x86_64",
+          "url": "https://github.com/anon7627/tidalsrc/releases/download/v0.1.0/tidalsrc-x86_64",
+          "sha256": "fa82aa0e7bb6442d034811de51cc1dc5375a16254005c768a705ca62f9f5f8ea"
+        },
+        {
+          "arch": "aarch64",
+          "url": "https://github.com/anon7627/tidalsrc/releases/download/v0.1.0/tidalsrc-aarch64",
+          "sha256": "8c5d6cebc10d1beb1f5fca34543a01771203bb2c5aa7d9a8f756a992bab76686"
         }
       ]
     },

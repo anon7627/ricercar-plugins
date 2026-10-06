@@ -1,0 +1,22 @@
+# Static Linux builds (x86_64, aarch64); elsewhere, build it from the repository
+# (`cargo install --git https://github.com/anon7627/deezsrc`).
+id = "deezer"
+name = "Deezer (unofficial)"
+description = "Browse and search Deezer and your library, Flow and mixes included, and stream it in FLAC (HiFi plan) or MP3, original codec unchanged, with seeking. Lyrics, radio, artist and album details, your own playlists editable. Sign in with your browser's arl cookie. Unofficial, uses Deezer's private API; needs a Deezer subscription."
+author = "anon7627"
+license = "MIT"
+repository = "https://github.com/anon7627/deezsrc"
+version = "0.1.0"
+protocol = 1
+capabilities = ["auth", "browse", "search", "resolve", "favorites", "reporting", "library", "lyrics", "playlist_edit", "details", "radio"]
+args = ["plugin"]
+
+[[assets]]
+arch = "x86_64"
+url = "https://github.com/anon7627/deezsrc/releases/download/v0.1.0/deezsrc-x86_64"
+sha256 = "275fda95b3a2f90a3c6296678a05196523a56481e932658ff7052eeeeff6b5a1"
+
+[[assets]]
+arch = "aarch64"
+url = "https://github.com/anon7627/deezsrc/releases/download/v0.1.0/deezsrc-aarch64"
+sha256 = "0209347624547aa8c71040627339cfb0f6b5c39e25479780221b047dd07c9769"

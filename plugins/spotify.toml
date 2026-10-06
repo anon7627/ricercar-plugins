@@ -1,0 +1,22 @@
+# Static Linux builds (x86_64, aarch64); elsewhere, build it from the repository
+# (`cargo install --git https://github.com/anon7627/spconnect`).
+id = "spotify"
+name = "Spotify (unofficial)"
+description = "Browse and search Spotify and your library, and play it in Ogg Vorbis 320 kbit/s, original codec unchanged. Lyrics, radio, artist and album details, your own playlists editable. Spotify Connect support: pick your player from the Spotify app and control it from your phone. Unofficial, uses librespot and the Spotify Web API; needs Spotify Premium."
+author = "anon7627"
+license = "MIT"
+repository = "https://github.com/anon7627/spconnect"
+version = "0.1.0"
+protocol = 1
+capabilities = ["auth", "browse", "search", "resolve", "favorites", "reporting", "remote_control", "library", "lyrics", "playlist_edit", "details", "radio"]
+args = ["plugin"]
+
+[[assets]]
+arch = "x86_64"
+url = "https://github.com/anon7627/spconnect/releases/download/v0.1.0/spconnect-x86_64"
+sha256 = "e927b9894f93b489516442322c1956228ba241bb9e3ac78e48f73e063a585c37"
+
+[[assets]]
+arch = "aarch64"
+url = "https://github.com/anon7627/spconnect/releases/download/v0.1.0/spconnect-aarch64"
+sha256 = "496f358391cb807f19f7c212efc374eccfa7690138932fa10f00bbbe6b3276d8"
